@@ -1,0 +1,142 @@
+* { box-sizing: border-box;}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+
+.site-container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/****** Header Section *****/
+header {
+  background-color: black;
+  width: 100%;
+}
+
+header .site-container {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+header span {
+  margin: 0.66rem 0rem;
+}
+
+/******* Photo Banner ******/
+section {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.arrivals {
+  background-color: black;
+  width: 26rem;
+  position: relative;
+  top: 9rem;
+}
+
+.arrivals h4 {
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+.arrivals h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.25rem 3rem 2rem 3rem;
+}
+/***** Navigation ******/
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav .site-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav span {
+  padding: 0.75rem 0rem;
+}
+
+/****** Main Section ******/
+main {
+  padding: 3rem;
+}
+
+main .site-container {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+}
+
+.product {
+  border: 4px solid black;
+  width: 30%;
+  justify-content: space-between;
+
+}
+
+.product img {
+  height: 9rem;
+  width: auto;
+  display: block;
+  margin: 2rem auto;
+
+}
+
+.product h5 {
+  background-color: black;
+  text-align: center;
+  padding: 0.5rem 0rem;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.where-when {
+  width: 35%;
+}
+.where-when h5 {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.where-when p {
+  color: black;
+  line-height: 2rem;
+}
+
+/******* Footer ******/
+
+footer {
+  background-color: black;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+}
